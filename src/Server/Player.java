@@ -1,5 +1,6 @@
 package Server;
 
+import javax.smartcardio.Card;
 import java.util.ArrayList;
 
 public class Player {

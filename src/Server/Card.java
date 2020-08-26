@@ -1,9 +1,11 @@
+package Server;
+
 import javax.imageio.ImageIO;
 import java.awt.Image;
 import java.io.IOException;
 import java.net.URL;
 
-public class Card {
+public abstract class Card {
     private Image wrap;
     private Image face;
     public Card(String a, String b){
@@ -17,5 +19,4 @@ public class Card {
             e.printStackTrace();
         }
     }
-
 }
