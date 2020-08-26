@@ -2,10 +2,10 @@ package Server;
 
 import java.util.Stack;
 
-public abstract class cardDeck {
+public abstract class CardDeck {
     protected Stack<Card> deck;
 
-    public cardDeck(){
+    public CardDeck(){
         deck = new Stack<Card>();
     }
 

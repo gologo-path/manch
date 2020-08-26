@@ -1,6 +1,6 @@
 package Server;
 
-public class DoorCardDeck extends cardDeck{
+public class DoorCardDeck extends CardDeck {
     public DoorCardDeck(){
         super();
     }

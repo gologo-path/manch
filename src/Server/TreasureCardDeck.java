@@ -1,6 +1,6 @@
 package Server;
 
-public class TreasureCardDeck extends cardDeck{
+public class TreasureCardDeck extends CardDeck {
     public TreasureCardDeck(){
         super();
     }
